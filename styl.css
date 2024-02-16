@@ -84,7 +84,7 @@ img{
 
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
     *{
         margin: 0rem;
         padding: 0rem;
@@ -148,17 +148,17 @@ img{
     }
 
     .msg-content{
-        margin: 5rem;
+        margin: 4rem;
         justify-content: center;
         
     }
     
     #msg{
         
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         display: inline;
-        padding: 1rem;
-        font-size: small;
+        padding: 0.5rem;
+        font-size: smaller;
     }
     
 }
