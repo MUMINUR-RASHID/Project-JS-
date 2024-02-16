@@ -80,3 +80,85 @@ img{
     padding: 1rem;
     font-size: 2rem;
 }
+
+
+
+
+@media only screen and (max-width:400px) {
+    *{
+        margin: 0rem;
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    h1{
+        height: 5rem;
+        text-align: center;
+        line-height: 5rem;
+    }
+    
+    
+    .choices{
+        margin-top: 5rem;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .choice{
+        height: 100px;
+        width: 100px;
+        
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .choice:hover{
+        cursor: pointer;
+    }
+    
+    
+    img{
+        height: 90px;
+        width: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    
+    .score{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 2rem;
+        
+    }
+    
+    
+    #your, #comp{
+        padding: 1rem;
+    }
+
+    .msg-content{
+        margin: 5rem;
+        justify-content: center;
+        
+    }
+    
+    #msg{
+        
+        border-radius: 1rem;
+        display: inline;
+        padding: 1rem;
+        font-size: smaller;
+    }
+    
+}
